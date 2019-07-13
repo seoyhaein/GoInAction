@@ -27,4 +27,6 @@ func main() {
 
 	close(c)
 	wg.Wait()
+	fmt.Println("HelloWorld")
+
 }
